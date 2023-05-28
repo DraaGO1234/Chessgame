@@ -1,0 +1,28 @@
+.square {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.dark-square {
+  background-color: rgb(5, 28, 130);
+}
+
+.light-square {
+  background-color: rgb(127, 187, 243);
+}
+
+.square .chess-piece{
+  width:100px;
+  height:80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80px;
+  cursor: grab;
+}
+
+.square .chess-piece:active
+{
+  cursor: grabbing;
+}
